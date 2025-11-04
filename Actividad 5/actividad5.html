@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <h1>Actividad 5: Formularios y tablas</h1>
+</header>
+<main>
+  <section>
+    <h2>controles de formulario</h2>
+    <form action=""method="post">
+      <fieldset>
+        <legend>Datos personales</legend>
+        <label for="userName">Nombre</label>
+        <input type="text" name="userName" id="userName" autofocus required/>
+<br>
+<br>
+        <label for="email">Correo electronico:</label>
+        <input type="email"name="email" id="email"required>
+<br>
+<br>
+        <label for="url">URL</label>
+        <input type="url"name="url" id="url">
+<br>
+<br>
+        <label for="Ciudad">Ciudad</label>
+        <select name="Ciudad" id="Ciudad">
+            <option value="SE">SEVILLA</option>
+            <option value="CA">CADIZ</option>
+            <option value="MA">MALAGA</option>
+            <option value="GR">GRANADA</option>
+            <option value="HU">HUELVA</option>
+            <option value="AL">ALMERIA</option>
+            <option value="JA">JAEN</option>
+            <option value="CO">CORDOBA</option>
+        </select>
+      </fieldset>
+      <Fieldset>
+<legend>Otros Datos</legend>
+
+   <label for="fecha">fecha:</label>
+   <input type="date" name="fecha" id="fecha"autofocus>
+<br>
+<br>
+   <label for="tiempo">tiempo:</label>
+   <input type="time" name="tiempo" id="tiempo"autofocus>
+<br>
+<br>
+    <label for="fecha y hora">fecha y hora:</label>
+    <input type="datetime" name="fecha y hora" id="fecha y hora"autofocus>
+<br>
+<br> 
+    <label for="mes">mes:</label>
+    <input type="month" name="mes" id="mes"autofocus>
+<br>
+<br>
+    <label for="semana">semana:</label>
+    <input type="week" name="semana" id="semana"autofocus>
+<br>
+<br>
+    <label for="maxmim">min-10 - max-10</label>
+    <input type="number" name="maxmim" id="maxmim" min="-10" max="10"autofocus>
+      </Fieldset>
+<br>
+        <input type="submit" value="Enviar">
+    </form>
+  </section>
+</main>
+<footer>
+<small>Copyright &copy; - Rafael López Dios</small>
+</footer>
+</body>
+</html>
